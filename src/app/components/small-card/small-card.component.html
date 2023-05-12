@@ -1,10 +1,10 @@
-<a href="#">
+<a [routerLink]="['content', id]">
   <div class="container__small-card">
     <div class="small-card__photo">
-      <img src="https://criticalhits.com.br/wp-content/uploads/2020/01/inosuke.jpg" alt="">
+      <img src="{{photoCover}}" alt="">
     </div>
     <div class="small-card__title">
-      <p>Inosuke foi considerado por votação popular a waifu mais bela de kimetisu, veja a votação!</p>
+      <p>{{cardTitle}}</p>
     </div>
   </div>
 

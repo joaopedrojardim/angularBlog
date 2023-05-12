@@ -1,13 +1,13 @@
-<a href="">
+<a [routerLink]="['content', id]">
   <div class="container__big-card">
     <div class="big-card__photo">
-        <img src="https://i.pinimg.com/originals/5f/51/22/5f5122832edcc326802f88fcde416523.jpg" alt="rengoku">
+        <img src="{{photoCover}}"alt="rengoku">
     </div>
     <div>
-        <h1>Rengoku morreu... Só lamentos</h1>
+        <h1>{{cardTitle}}</h1>
     </div>
     <div>
-        <p>Muita depressão, até o porcão chorou! aceita esta nóticia, a tristeza esta entre nós.</p>
+        <p>{{cardDescription}}.</p>
     </div>
 </div>
 
